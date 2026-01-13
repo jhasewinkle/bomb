@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# Tooling / builds
+dist/
+build/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# OS/editor
+.DS_Store
+*.swp
+*.swo
+
+# Secrets / local configs (adjust to your project)
+*.env
+.env.*
+secrets.*
+*.key
+*.pem
+
+# Output artifacts
+*.log
+output/
+reports/
